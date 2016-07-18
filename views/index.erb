@@ -1,0 +1,15 @@
+<h1>To Do</h1>
+
+<p>Here are all your tasks:</p>
+
+<ul>
+  <% @tasks.each do |task| %>
+    <li><%= task.description %> <a href="/tasks/<%= task.id() %>/edit">Update this task's description</a></li>
+  <% end %>
+</ul>
+
+<form action="/tasks/add" method="post">
+  <input type="text" name="name" value="">
+<button type="submit" name="button">new task</button>
+
+</form>
