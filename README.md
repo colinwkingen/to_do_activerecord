@@ -4,7 +4,7 @@
 
 ## Description
 
-This project uses SQL to store patients and info. Practice using ruby and relational databases.
+This project uses SQL to store lists and items. Practice using ruby and relational databases.
 ActiveRecord is used to handle database interaction.
 
 
@@ -16,7 +16,7 @@ To install this repository into a new project each time, first
 * Clone the github repository using the git clone command from /Desktop
 * Create a new folder in the Desktop with your project name
 * run db:create and db:migrate 
-* run gulp serve
+* run ruby app.rb
 * navigate to the appropriate port on your browser
 
 ## Known Bugs
